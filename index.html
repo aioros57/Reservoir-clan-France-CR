@@ -436,10 +436,8 @@
       localStorage.setItem("drive_url", driveUrl);
 
      async function initSupabaseAndLoadData() {
-  // Remplace directement par tes vrais identifiants Supabase entre les guillemets :
   const spUrl = "https://ivdxqtvlynbhwejjtsrb.supabase.co";
   const spKey = "sb_publishable_HwJQpCWsfU-dCerqQPZK7w_eWhDkgOy"; 
-
   const badge = document.getElementById("storage-status-badge");
 
   if (spUrl && spKey && window.supabase) {
